@@ -1,0 +1,51 @@
+h1 {
+    font-style: italic;
+  }
+table{
+  background-color: black;
+  border: 2px solid black;
+  margin: 10px;
+  margin-top: 20px;
+  padding: 6px;
+  border-spacing: 2px;
+  text-align: center;
+  table-layout: fixed;
+}
+td {
+  border-radius: 10px;
+}
+.alkalimetals {
+  background-color: moccasin;
+}
+.alkalineearthmetals {
+  background-color: gold;
+}
+.rareearthelements {
+  background-color: chartreuse;
+}
+.actinoidelements {
+  background-color: lightblue;
+}
+.transitionmetals {
+  background-color: plum;
+  
+}
+.nonmetals {
+ background-color: salmon;
+}
+.othermetals {
+  background-color: lightpink;
+}
+.halogens {
+  background-color: lightgreen;
+}
+.noblegases {
+  background-color: azure;
+}
+.empty {
+  empty-cells: hide;
+}
+td:hover {
+  background-color: red;
+  transform: translate(20px, 20px);
+}
